@@ -1,11 +1,7 @@
 import express, { Request, Response } from "express";
-import dotenv from "dotenv";
 
 //* Express application
 const app = express();
-
-//* Configure DotEnv
-dotenv.config();
 
 //* Middlewares
 app.use(express.json());
